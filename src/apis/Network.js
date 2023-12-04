@@ -3,7 +3,7 @@ import axios from 'axios';
 const Config = {
   baseURL: 'https://api.themoviedb.org/3/movie',
   token:
-    'Your Token',
+    'key',
 };
 
 export const getUpcomingMovies = async () => {
